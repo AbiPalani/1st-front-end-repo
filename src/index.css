@@ -1,0 +1,93 @@
+body{
+  background-image:url("https://m.media-amazon.com/images/S/aplus-media/sc/2474c7b1-d7b9-4ca5-a5b5-8098456938a3.__CR0,0,970,600_PT0_SX970_V1___.jpg");
+  background-size:cover;
+}
+
+.head{
+  left:50%;
+  color: aqua;
+  background-color:none;
+  font-size:80px;
+  font-style:normal;
+}
+
+form i {
+  margin-left: -35px;
+  cursor: pointer;
+}
+
+.avatar{
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+
+.label{
+  height:35px;
+  width:250px;
+  background:dodgerblue;
+}
+
+.labelreg{
+  height:40px;
+  width:200px;
+  background:dodgerblue;
+  border-radius: 10px;
+}
+
+form h1{
+  border-bottom: 1px solid grey;
+}
+
+#password{
+  margin-right: 15px;
+  height:40px;
+  width:350px;
+  border-radius: 5px;
+}
+
+.text{
+  height:40px;
+  width:350px;
+  border-radius: 5px;
+}
+
+.form{
+    background-color:whitesmoke;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    border:mediumaquamarine ridge 1px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.radio{
+  text-align:left;
+  background-color: whitesmoke;
+  border:solid 2px grey;
+  height:40px;
+  width:350px;
+  border-radius: 5px;
+}
+
+.calendar{
+  background-color:chocolate;
+  color:black;
+}
+
+.date{
+    background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat ;
+}
+.date::-webkit-inner-spin-button {
+    display: none;
+  }
+.date::-webkit-calendar-picker-indicator {
+    opacity: 0;
+  }
+
+
+
+
